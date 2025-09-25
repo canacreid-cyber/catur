@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Chess Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>♟ Modern Chess Game</h1>
+
+  <div class="controls">
+    <button id="undoBtn">Undo</button>
+    <button id="saveBtn">Save</button>
+    <button id="loadBtn">Load</button>
+    <button id="toggleAIBtn">Toggle AI</button>
+    <label>
+      AI Depth:
+      <input type="number" id="aiDepth" min="1" max="5" value="3"/>
+    </label>
+  </div>
+
+  <div id="chessboard"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
